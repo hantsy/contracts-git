@@ -1,5 +1,5 @@
 {
-  "id" : "ea3f57b6-4dd0-4ddb-939d-27af7113077a",
+  "id" : "be8d8053-4bed-46bf-ad06-b2955ae4dcc4",
   "request" : {
     "url" : "/notifications/1",
     "method" : "GET",
@@ -17,5 +17,5 @@
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "ea3f57b6-4dd0-4ddb-939d-27af7113077a"
+  "uuid" : "be8d8053-4bed-46bf-ad06-b2955ae4dcc4"
 }
