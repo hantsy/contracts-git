@@ -1,0 +1,21 @@
+{
+  "id" : "3d91292a-ef12-4e32-9870-c75e72ce0e49",
+  "request" : {
+    "url" : "/notifications/1",
+    "method" : "GET",
+    "headers" : {
+      "accept" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"body\":\"test message\",\"type\":\"MESSAGE\"}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "3d91292a-ef12-4e32-9870-c75e72ce0e49"
+}

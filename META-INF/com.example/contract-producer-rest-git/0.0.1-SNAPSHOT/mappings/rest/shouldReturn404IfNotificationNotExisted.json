@@ -1,0 +1,21 @@
+{
+  "id" : "9c95c6a3-1c19-41e3-9f03-a7cbf35a02ed",
+  "request" : {
+    "url" : "/notifications/404",
+    "method" : "GET",
+    "headers" : {
+      "accept" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 404,
+    "body" : "{\"code\":\"not_found\",\"message\":{\"cursor\":13}}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "9c95c6a3-1c19-41e3-9f03-a7cbf35a02ed"
+}
